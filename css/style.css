@@ -1,0 +1,163 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+.container {
+  width: 730px;
+  max-width: none !important;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  padding-bottom:0;
+  padding-top: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  height: 500px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+.jumbotron .basic-usage {
+  border: 1px solid #d6d6d6; 
+  width: 730px;
+  height: 500px;}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.information {
+  font-style: oblique;
+  font-weight: bold;
+ 
+   
+
+}
+.information #score {
+    border:3px solid #8AC007;
+    font-family: inherit;
+    width : 80px;   
+    margin-left: 150px;
+}
+.information #time { 
+   border:3px solid #8AC007;
+    font-family: inherit;
+}
+.information #speed {
+  border:3px solid #8AC007;
+    font-family: inherit;
+    margin-right: 150px;
+  
+}
+.start{
+  color: blue;
+   font-style: oblique;
+
+
+}
+.start #first{
+  padding-top: 80px;
+  font-size: 20px;
+}
+.try_again {
+  color : blue;
+  font-style: oblique;
+}
+.try_again #total_score {
+  padding-top: 80px;
+  font-size: 20px
+}
+.try_again #try_button {
+  margin-left: 50px;
+}
+
+#title a {
+  color : orange;
+  text-decoration: none;
+
+}
+#login {
+
+  padding-top: 200px;
+}
+.display_rank{
+  width:250px;
+  height: 60px;
+  font-size: 15px;
+  border-color: orange;
+   border-bottom-style: solid;
+}
+.display_rank #show_score {
+font-size: 18px;
+ float:right;
+}
+.time_score {
+font-size:18px;
+  float: right;
+
+}
+
+.col-lg-12 p{
+  font-size: 15px;
+}
